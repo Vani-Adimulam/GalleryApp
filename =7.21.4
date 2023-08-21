@@ -1,0 +1,62 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+ WARN  deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+Progress: resolved 93, reused 92, downloaded 0, added 0
+Progress: resolved 252, reused 251, downloaded 0, added 0
+ WARN  deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+ WARN  deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+ WARN  deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+ WARN  deprecated fsevents@1.2.13: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+Progress: resolved 377, reused 373, downloaded 0, added 0
+ WARN  deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+Progress: resolved 502, reused 496, downloaded 0, added 0
+ WARN  deprecated rollup-plugin-babel@4.4.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+ WARN  deprecated rollup-plugin-terser@5.3.1: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+ WARN  deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+Progress: resolved 619, reused 617, downloaded 0, added 0
+Already up-to-date
+Progress: resolved 619, reused 617, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ eslint-config-airbnb
+│ ├── ✕ missing peer eslint@"^5.16.0 || ^6.8.0 || ^7.2.0"
+│ ├── ✕ missing peer eslint-plugin-import@^2.22.1
+│ ├── ✕ missing peer eslint-plugin-jsx-a11y@^6.4.1
+│ ├── ✕ missing peer eslint-plugin-react@^7.21.5
+│ ├── ✕ missing peer eslint-plugin-react-hooks@"^4 || ^3 || ^2.3.0 || ^1.7.0"
+│ └─┬ eslint-config-airbnb-base
+│   ├── ✕ missing peer eslint@"^5.16.0 || ^6.8.0 || ^7.2.0"
+│   └── ✕ missing peer eslint-plugin-import@^2.22.1
+├─┬ eslint-config-prettier
+│ └── ✕ missing peer eslint@>=7.0.0
+├─┬ eslint-plugin-prettier
+│ └── ✕ missing peer eslint@>=5.0.0
+├─┬ react-scripts
+│ ├── ✕ missing peer typescript@"^3.2.1 || ^4"
+│ ├─┬ @typescript-eslint/eslint-plugin
+│ │ ├── ✕ missing peer typescript@"*"
+│ │ └─┬ @typescript-eslint/experimental-utils
+│ │   └─┬ @typescript-eslint/typescript-estree
+│ │     ├── ✕ missing peer typescript@"*"
+│ │     └─┬ tsutils
+│ │       └── ✕ missing peer typescript@">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
+│ ├─┬ @typescript-eslint/parser
+│ │ └── ✕ missing peer typescript@"*"
+│ ├─┬ eslint-plugin-testing-library
+│ │ └─┬ @typescript-eslint/experimental-utils
+│ │   └─┬ @typescript-eslint/typescript-estree
+│ │     └── ✕ missing peer typescript@"*"
+│ └─┬ @svgr/webpack
+│   └─┬ @babel/preset-env
+│     └─┬ @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining
+│       └── ✕ unmet peer @babel/core@^7.13.0: found 7.12.3 in @svgr/webpack
+└─┬ ts-pnp
+  └── ✕ missing peer typescript@"*"
+Peer dependencies that should be installed:
+  eslint-plugin-import@">=2.22.1 <3.0.0"
+  eslint-plugin-jsx-a11y@^6.4.1
+  eslint-plugin-react-hooks@"^4 || ^3 || ^2.3.0 || ^1.7.0"
+  eslint-plugin-react@^7.21.5
+  eslint@">=7.2.0 <8.0.0"
+  typescript@">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+
